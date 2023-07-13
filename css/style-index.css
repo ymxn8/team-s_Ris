@@ -6,6 +6,22 @@
     padding: 0px;
 }
 
+.fadeIn{
+    animation-name:fadeInAnime;
+    animation-duration:2.5s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeInAnime{
+      from {
+        opacity: 0;
+      }
+    
+      to {
+        opacity: 1;
+      }
+    }
 a{
     text-decoration: none;
     color: aliceblue;
