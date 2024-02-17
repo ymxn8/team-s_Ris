@@ -71,6 +71,39 @@ html,body{
     height: 100%;
 }
 
+/* 開いて実行されるアニメーションを設定*/
+details[open] .content {
+    animation: fadeIn 2.0s ease-in-out;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; /* Transparent */
+      transform: translateY(+100px); 
+      /* translateX(+100px)：右から表示 */
+      /* translateX(-100px)：左から表示 */
+      /* translateY(+100px)：下から表示 */
+      /* translateY(-100px)：上から表示 */
+  
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+summary {
+    display: block;
+    list-style: none;
+}
+
+ul{
+    padding: 0;;
+}
+
+li {
+   list-style:none;
+}
+
 @media only screen and (max-width : 750px){
     body{
         font-size: 25px;
