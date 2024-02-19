@@ -113,7 +113,7 @@ a{
     .title{
       text-align: center;
       font-size:350%;
-      color:#000000;
+      color:#ffffff;
     }
       
     .icon{
@@ -141,6 +141,10 @@ a{
       
     .memo{
       text-align: center;
-      font-size: 120%;
+      font-size: 240%;
+    }
+
+    .back{
+      font-size: 200%;
     }
   }
