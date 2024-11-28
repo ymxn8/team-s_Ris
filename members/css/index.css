@@ -29,13 +29,8 @@ body {
   font-family: 'Playball', cursive;
   color: aliceblue;
   font-size:95%;
+  background-color: #172366;
 }
-
-a{
-  text-decoration: none;
-  color: aliceblue;
-}
-
 
 #wrapper{
   display: block;
@@ -43,6 +38,11 @@ a{
   align-items: center;
   text-align:center;
   color: #fff;
+}
+
+html,body{
+  height: 100%;
+  margin: 0;
 }
 
 #particles-js{ 
@@ -139,9 +139,6 @@ h4{
       color: aliceblue;
       text-align: center;
       line-height: 2.0;
-      margin: 0%;
-      border: 0%;
-      padding: 0%;
     }
     br{
       display: block;
