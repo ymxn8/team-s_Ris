@@ -73,7 +73,7 @@ html,body{
 @media(max-width:1000px){
   body{
     font-family: 'Playball', cursive;
-    font-size: 200%;
+    font-size: 150%;
     color: aliceblue;
     text-align: center;
     line-height: 2.0;
