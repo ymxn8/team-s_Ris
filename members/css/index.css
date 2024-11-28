@@ -1,0 +1,189 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.fadeDown{
+  animation-name:fadeDownAnime;
+  animation-duration:2.5s;
+  animation-fill-mode:forwards;
+  opacity:0;
+  }
+  
+  @keyframes fadeDownAnime{
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+body {
+  font-family: 'Playball', cursive;
+  color: aliceblue;
+  font-size:95%;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+
+#wrapper{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  color: #fff;
+}
+
+#particles-js{ 
+  position:fixed;
+  z-index:-1;
+  width: 100%;
+  height: 100%;
+  background-color:#172366;
+  margin: 0;
+}
+
+#wrapper{
+  position: relative;
+  z-index: 1;
+  width:100%;
+  height: 100%;
+}
+  
+/*.box {
+  box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); 
+  background-image: -webkit-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
+  padding:10px;
+  max-width: 70%;
+  max-height: 70%;
+  border-radius:10px 10px 10px 10px;
+  margin-left: auto;
+  margin-right: auto;
+}*/
+  
+.title{
+  text-align: center;
+  font-size:350%;
+}
+
+.title p{
+  color: #fff;
+}
+  
+.icon{
+  text-align: center;
+}
+  
+.link1{
+  text-align: center;
+}
+  
+.btn{
+  font-family: 'Playball', cursive;
+  border: none;
+  border-radius: 100vh;
+  font-size: 30px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+  text-align: center;
+  text-decoration: none;
+  color:#000000;
+  width: 500px;
+  height: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+  
+.link2{
+  mix-blend-mode: difference;
+  width: auto;
+  text-align: center;
+}
+  
+.memo{
+  text-align: center;
+  font-size: 30px;
+}
+
+h4{
+  font-size: 200%;
+}
+
+@media(max-width:1000px){
+      
+    /*.box {
+      box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); 
+      background-image: -webkit-linear-gradient(110deg, #e9defa 0%, #fbfcdb 100%);
+      padding:10px;
+      max-width: 90%;
+      max-height: 90%;
+      border-radius:10px 10px 10px 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }*/
+
+    body{
+      font-family: 'Playball', cursive;
+      font-size: 200%;
+      color: aliceblue;
+      text-align: center;
+      line-height: 2.0;
+      margin: 0%;
+      border: 0%;
+      padding: 0%;
+    }
+    br{
+      display: block;
+      content: "";
+      margin: 20px 0;
+    }
+      
+    .title{
+      text-align: center;
+      font-size:350%;
+      color:#ffffff;
+    }
+      
+    .icon{
+      text-align: center;
+    }
+      
+    .link1{
+      text-align: center;
+    }
+      
+    .btn{
+      border: none;
+      border-radius: 100vh;
+      font-size: 30px;
+      -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+      box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+      text-align: center;
+      text-decoration: none;
+      color:#000000;
+      width: 700px;
+      height: 100px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+      
+    .memo{
+      text-align: center;
+      font-size: 200%;
+    }
+
+    .back{
+      font-size: 100%;
+    }
+  }
