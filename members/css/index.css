@@ -25,6 +25,11 @@
     }
   }
 
+  a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
 body {
   font-family: 'Playball', cursive;
   color: aliceblue;
