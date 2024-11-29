@@ -30,6 +30,12 @@ a{
     color: aliceblue;
 }
 
+br {
+  display: block;
+  content: "";
+  margin: 15px 0;
+}
+
 body{
     font-family: 'Playball', cursive;
     font-size: 200%;
