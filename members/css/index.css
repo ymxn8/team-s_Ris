@@ -189,14 +189,14 @@ h4 {
     color: #000000;
     width: 80%;
     height: 120%;
-    line-height: 150%;
+    line-height: 200%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .memo {
     text-align: center;
-    font-size: 30px;
+    font-size: 200%;
   }
 
   .back{
