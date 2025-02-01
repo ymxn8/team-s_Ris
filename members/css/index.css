@@ -128,7 +128,7 @@ h4 {
   color: aliceblue;
 }
 
-@media(max-width:1500px) {
+@media(max-width:750px) {
 
   /*.box {
       box-shadow: 0px 0px 15px 0px rgba(98,98,98,0.8); 
@@ -143,21 +143,25 @@ h4 {
 
   body {
     font-family: 'Playball', cursive;
-    font-size: 200%;
     color: aliceblue;
     text-align: center;
     line-height: 2.0;
   }
 
+  img{
+    width: 50%;
+    height: 50%;
+  }
+
   br {
     display: block;
     content: "";
-    margin: 20px 0;
+    margin: 5px 0;
   }
 
   .title {
     text-align: center;
-    font-size: 350%;
+    font-size: 40px;
     color: #ffffff;
   }
 
@@ -168,24 +172,32 @@ h4 {
   .link1 {
     text-align: center;
   }
+  .link1 br{
+    display: block;
+    content: "";
+    margin: 10px 0;
+  }
 
   .btn {
     border: none;
     border-radius: 100vh;
-    font-size: 40px;
+    font-size: 25px;
     -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
     box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
     text-align: center;
     text-decoration: none;
     color: #000000;
-    width: 700px;
-    height: 100px;
+    width: 80%;
+    height: 120%;
+    line-height: 150%;
+    line-height: 200%;
     margin-right: auto;
     margin-left: auto;
   }
 
   .memo {
     text-align: center;
+    font-size: 30px;
     font-size: 200%;
   }
 
